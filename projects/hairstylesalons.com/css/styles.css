@@ -1,0 +1,587 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.home-start {
+    width: 70px;
+    position: fixed;
+    top: 150px;
+    left: 5px;
+}
+.home-start img {
+    width: 100%;
+}
+body {
+    background-color: #ededed;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.hairstylesalon:after,
+.news_content:after,
+#header:after,
+#container:after,
+#content:after,
+.containers:after,
+#box_feature:after,
+#block:after,
+.container:after,
+#box-call-us:after {
+
+    clear: both;
+    content: " ";
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 950px;
+
+}
+
+#header,
+footer {
+    background-color: #4c8f96;
+
+}
+
+#logo {
+    margin-bottom: -85px;
+    margin-left: 3px;
+    padding-top: 58px;
+}
+
+#head {
+    float: left;
+}
+
+#menu {
+    padding-top: 110px;
+    float: right;
+
+    padding-bottom: 35px;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline-block;
+    border: solid 1px #1b2130;
+    background-color: #1b2130;
+    border-radius: 5px;
+    padding: 4px 17px;
+    margin-right: 10px;
+}
+
+#menu li:hover {
+    background-color: #335f64;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #f0f0f1;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+#content {
+    margin-top: 60px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: solid 2px #5fb3bd;
+    background-color: #ffffff;
+}
+
+#content img {
+    margin-bottom: -4px;
+}
+
+#img {
+    float: left;
+}
+
+#text {
+    float: right;
+    font-family: 'Changa One', cursive;
+    font-size: 40px;
+    padding-top: 120px;
+    padding-right: 90px;
+
+}
+
+.containers {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.img_text {
+    width: 25%;
+    float: left;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.img_text p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.img_text img {
+    max-width: 222px;
+
+}
+
+#box_feature {
+    border: solid 5px #5fb3bd;
+    width: 49%;
+    margin-top: 30px;
+    float: left;
+    box-sizing: border-box;
+    padding-bottom: 70px;
+}
+
+#content_block {
+    margin-top: 30px;
+    width: 49%;
+    margin-left: 2%;
+    float: right;
+    box-sizing: border-box;
+
+}
+
+#container {
+    margin-bottom: 60px;
+
+}
+
+.box-title {
+    border: solid 1px #1d2339;
+    background-color: #1d2339;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    padding: 10px 20px;
+    width: 130px;
+    text-align: center;
+    position: relative;
+    top: -12px;
+    left: 20px;
+}
+
+#foto {
+    float: left;
+    padding-top: 10px;
+    padding-left: 18px;
+}
+
+#feature_head {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+#feature_content {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+#sidebar p {
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+
+#box-hairstyle,
+#box-call-us {
+    background-color: #519194;
+    border: solid 5px #5fb3bd;
+
+}
+
+#box-call-us {
+    margin-top: 25px;
+}
+
+#box-hairstyle p {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #dfe8e8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    line-height: 25px;
+}
+
+#mike {
+    text-align: right;
+    color: #dfe8e8;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#img_man {
+    float: left;
+    position: relative;
+    top: -16px;
+    margin-bottom: -28px;
+}
+
+#text_block {
+    float: right;
+    width: 50%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #dfe8e8;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+footer {
+    color: #dfe8e8;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin-top: -30px;
+}
+
+#icon {
+    font-size: 22px;
+    color: #0d464d;
+    float: right;
+
+    border: solid 1px #387a82;
+    background-color: #387a82;
+    padding: 16px 30px;
+    margin-top: -30px;
+}
+
+#icon i {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/*news*/
+
+
+.news {
+    float: left;
+    width: 65%;
+}
+
+#news_text {
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    line-height: 25px;
+    color: #191d30;
+    margin-bottom: 100px;
+}
+
+#news_text p {
+    padding-bottom: 20px;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    width: 35%;
+    float: right;
+    border: solid 5px #5fb3bd;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.title_recent {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.item p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.item {
+    font-size: 13px;
+    padding: 10px 20px 10px 20px;
+    line-height: 25px;
+}
+
+/*Contact*/
+
+.contact_text {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 30px;
+    padding-bottom: 13px;
+
+}
+
+.adress {
+    line-height: 23px;
+    margin-bottom: 200px;
+}
+
+/*about*/
+.about {
+    margin-bottom: 200px;
+}
+
+.title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 60px;
+
+
+}
+
+.about_text p {
+    font-size: 18px;
+    padding-top: 35px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.about_text,
+.about_text h3 {
+    font-size: 13px;
+    line-height: 23px;
+}
+
+/*hairstylesalon*/
+
+
+.hairstylesalon {
+    margin-top: 30px;
+    margin-bottom: 200px;
+    position: relative;
+
+}
+
+.hairstylesalon .img_text {
+    margin-bottom: 20px;
+}
+
+.show_more {
+    position: absolute;
+    bottom: 385px;
+    left: 430px;
+
+}
+
+/*mobiles styles*/
+@media only screen and (max-width: 480px) {
+
+    #head {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: -100px;
+    }
+
+    #menu {
+        margin-top: 30px;
+        float: none;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    #menu li {
+        margin-top: 10px;
+        width: 50%;
+        text-align: center;
+    }
+
+    #img img {
+        width: 100%;
+    }
+
+    #text {
+        text-align: center;
+        float: none;
+        padding: 0;
+    }
+
+    .img_text {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    #text_block {
+        width: 100%;
+        padding: 0;
+    }
+
+    #box_feature {
+        width: 100%;
+        float: none;
+    }
+
+    #content_block {
+        width: 100%;
+        float: none;
+    }
+
+    #top_block {
+        width: 100%;
+    }
+
+    #icon {
+        float: none;
+        margin: 30px auto -30px;
+        width: 150px;
+
+    }
+
+    /*news*/
+    .sidebar {
+        margin-bottom: 50px;
+        width: 100%;
+        float: none;
+    }
+
+    .news {
+        float: none;
+        width: 100%;
+
+    }
+
+    /*hairstylesalon*/
+    .show_more {
+        position: absolute;
+        left: 45%;
+
+    }
+}
+
+/*tablet styles*/
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+    #head {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: -100px;
+    }
+
+    #menu {
+        margin-top: 30px;
+        float: none;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    #menu li {
+        margin-top: 10px;
+        width: 50%;
+        text-align: center;
+    }
+
+    #img {
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    #img img {
+        width: 100%;
+    }
+
+    #text {
+        text-align: center;
+        padding-right: 0;
+        float: none;
+    }
+
+    .img_text {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-bottom: 40px;
+
+    }
+
+    #box_feature {
+        width: 100%;
+        float: none;
+    }
+
+    #content_block {
+        width: 100%;
+        float: none;
+    }
+
+    #top_block {
+        width: 100%;
+    }
+
+    #icon {
+        float: none;
+        margin: 30px auto -30px;
+        width: 150px;
+
+    }
+
+    /*news*/
+    .sidebar {
+        margin-bottom: 50px;
+        width: 100%;
+        float: none;
+    }
+
+    .news {
+        float: none;
+        width: 100%;
+
+    }
+
+    /*hairstylesalon*/
+    .hairstylesalon .img_text {
+        width: 50%;
+        float: left;
+    }
+
+    .show_more {
+        position: absolute;
+        left: 45%;
+
+    }
+}
+
+/*desktop styles*/
+@media only screen and (min-width: 1001px) {
+
+}
+
+/*width*/
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+    #menu li {
+        margin-right: 1px;
+    }
+
+    #text {
+        font-size: 30px;
+    }
+}
